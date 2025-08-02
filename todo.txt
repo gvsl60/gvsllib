@@ -1,0 +1,7 @@
+i know, is ridiculous adds bfs type shit in a cp lib but im only starting
+next things will be better
+
+segment tree
+segment tree with lazy update
+fenwick tree (BIT)
+
