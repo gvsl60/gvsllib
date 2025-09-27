@@ -3,5 +3,4 @@ next things will be better
 
 segment tree
 segment tree with lazy update
-fenwick tree (BIT)
 Disjoin set union (DSU)
