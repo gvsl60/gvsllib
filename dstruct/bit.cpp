@@ -20,12 +20,12 @@ public:
     // be careful if needs to update not sum
     T sum(int x){
         T ans = 0;
-        for (; x > 0; x -= x & -x){
+        while(x > 0){
             ans += bit[x];
+            x -= x & -x;
         }
         return ans;
     }
-
 
     T query(int l,int r){
         return sum(r) - sum(l - 1);   
